@@ -1,0 +1,12 @@
+body{
+    background-color:darkgray;
+}
+section{
+    background-color:beige;
+    width:450px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 15%;
+    box-shadow: 5px 5px 15px;
+    margin:auto;
+}

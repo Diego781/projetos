@@ -1,0 +1,13 @@
+body{
+    background-color:bisque;
+    
+}
+section{
+    box-shadow: 5px 5px 15px;
+    border-radius:10%;
+    width:400px;
+    height:350px;
+    padding:16px;
+    background-color:aquamarine;
+    margin:auto;
+}

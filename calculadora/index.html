@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Vamos calcular</h1>
+    <section>
+        <br>
+        <input type="number" name="txtn1" id ="txtn1">
+        <input type="number" name="txtn2" id = "txtn2">
+       <br> + <input type="radio" name="som" id="fcalc" >
+        - <input type="radio" name="sub" id="fcalc" >
+        x <input type="radio" name="mult" id="fcalc">
+        / <input type="radio" name="div" id="fcalc">
+        <br>
+        <input type="button" value="calcular" onclick = "calcular()">
+        <div id ='res'></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
